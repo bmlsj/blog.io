@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://bmlsj.github.io/blog.io/'
-baseurl:          '/'
+baseurl:          ''
 rss:              RSS
 
 toc:
