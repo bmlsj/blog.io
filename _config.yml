@@ -3,6 +3,8 @@ title:            Jekyll Gitbook
 longtitle:        Jekyll Gitbook
 author:           bmlsj
 email:            gaga2353@gmail.com
+repo:             blog.io
+branch:           main
 description: >
   Build Jekyll site with the GitBook style.
 
@@ -18,6 +20,7 @@ toc:
   h_min: 1
   h_max: 3
 
+language:         'utf-8'
 # markdown render engine.
 markdown:         kramdown
 kramdown:
