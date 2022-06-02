@@ -1,0 +1,22 @@
+# This is a basic workflow to help you get started with Actions
+
+name: shell test
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run auto.sh
+        run: |
+              chmod +rx auto.sh
+              ./auto.sh
+              echo "shell complete"
