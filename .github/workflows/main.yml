@@ -17,5 +17,6 @@ jobs:
 
       - name: Run auto.sh
         run: |
+              chmod +rx auto.sh
               ./auto.sh
               echo "shell complete"
