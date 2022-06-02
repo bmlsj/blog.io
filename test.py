@@ -1,3 +1,3 @@
 f = open("test.txt", "w")
 
-f.write('hello')
+f.write('hello world')
