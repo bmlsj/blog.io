@@ -53,7 +53,9 @@ page_width: 800px
 destination:      ./_site
 incremental:      false
 regenerate:       true
-
+feed:
+  path: "/blog.io/feed.atom"
+  
 plugins:
   - jekyll-feed
   - jemoji
