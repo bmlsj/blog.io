@@ -1,4 +1,9 @@
-{"/blog.io/jekyll/2022-05-24-page_cover.html": {
+{"/blog.io/jekyll/2022-06-01-test.html": {
+    "title": "gh-pages test",
+    "keywords": "Jekyll",
+    "url": "/blog.io/jekyll/2022-06-01-test.html",
+    "body": "jekyll test"
+  },"/blog.io/jekyll/2022-05-24-page_cover.html": {
     "title": "Page with cover image",
     "keywords": "Jekyll",
     "url": "/blog.io/jekyll/2022-05-24-page_cover.html",
