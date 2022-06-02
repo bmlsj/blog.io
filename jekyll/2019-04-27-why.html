@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>How to Generate TOC · Jekyll Blog</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Why Jekyll with GitBook · Jekyll Blog</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="Build Jekyll site with the GitBook style.
 "><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="bmlsj"><link rel="stylesheet" href="/blog.io//gitbook/style.css">
 <link rel="stylesheet" href="/blog.io//gitbook/gitbook-plugin-fontsettings/website.css">
@@ -33,11 +33,11 @@
         }
     };
 </script>
-            <link rel="prev" href="/blog.io//jekyll/2019-04-28-howto.html" />
+            <link rel="prev" href="/blog.io//" />
         
 
         
-            <link rel="next" href="/blog.io//jekyll/2022-05-24-page_cover.html" />
+            <link rel="next" href="/blog.io//jekyll/2019-04-28-howto.html" />
         
     </head>
     <body>
@@ -76,12 +76,15 @@
 
                     
                         
-                        <li class="chapter" data-level="1.1" data-path="/blog.io//jekyll/2019-04-27-why.html">
+                        <li class="chapter active" data-level="1.2" data-path="/blog.io//jekyll/2019-04-27-why.html">
                         
                             <a href="/blog.io//jekyll/2019-04-27-why.html">
                                 Why Jekyll with GitBook
                             </a>
                             
+                                
+                                    
+
                                 
                             
                         </li>
@@ -98,15 +101,12 @@
                         </li>
                     
                         
-                        <li class="chapter active" data-level="1.2" data-path="/blog.io//jekyll/2021-08-10-toc.html">
+                        <li class="chapter" data-level="1.1" data-path="/blog.io//jekyll/2021-08-10-toc.html">
                         
                             <a href="/blog.io//jekyll/2021-08-10-toc.html">
                                 How to Generate TOC
                             </a>
                             
-                                
-                                    <ul><li><a href="#why-this-repo">Why this repo</a></li><li><a href="#why-this-repo-1">Why this repo</a></li><li><a href="#why-this-repo-2">Why this repo</a></li></ul>
-
                                 
                             
                         </li>
@@ -141,7 +141,7 @@
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         
-                            <a href="." >How to Generate TOC</a>
+                            <a href="." >Why Jekyll with GitBook</a>
                         
                     </h1>
                 </div>
@@ -154,49 +154,19 @@
             <div class="search-noresults">
                 <section class="normal markdown-section">
                     
-                        <h1 id="/jekyll/toc">How to Generate TOC</h1>
+                        <h1 id="/jekyll/why">Why Jekyll with GitBook</h1>
                     
 
-                    <p>The jekyll-gitbook theme leverages <a href="https://github.com/allejo/jekyll-toc">jekyll-toc</a> to generate the <em>Contents</em> for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+                    <p>GitBook is an amazing frontend style to present and organize contents (such as book chapters
+and blogs) on Web. The typical to deploy GitBook at <a href="https://pages.github.com">Github Pages</a>
+is building HTML files locally and then push to Github repository, usually to the <code class="language-plaintext highlighter-rouge">gh-pages</code>
+branch. However, it’s quite annoying to repeat such workload and make it hard for people do
+version control via git for when there are generated HTML files to be staged in and out.</p>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-    <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
-</code></pre></div></div>
-
-<h2 id="why-this-repo">Why this repo</h2>
-
-<p>long contents …..</p>
-
-<ol>
-  <li>a</li>
-  <li>b</li>
-  <li>c</li>
-  <li>d</li>
-</ol>
-
-<h2 id="why-this-repo-1">Why this repo</h2>
-
-<p>long contents …..</p>
-
-<ul>
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
-  <li>4</li>
-</ul>
-
-<h2 id="why-this-repo-2">Why this repo</h2>
-
-<p>long contents …..</p>
-
-<ol>
-  <li>e</li>
-  <li>f</li>
-  <li>g</li>
-  <li>h</li>
-</ol>
+<p>This theme takes style definition out of generated GitBook site and provided the template
+for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
+to <a href="https://pages.github.com">Github Pages</a> without generating and uploading HTML bundle every time when there are
+changes to the original repository.</p>
 
 
                 </section>
@@ -212,13 +182,13 @@ configuration in <code class="language-plaintext highlighter-rouge">_config.yml<
     </div>
 </div>
 
-                        <a href="/blog.io//jekyll/2019-04-28-howto.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: How to Get Started">
+                        <a href="/blog.io//" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Jekyll Blog">
                             <i class="fa fa-angle-left"></i>
                         </a>
                     
 
                     
-                        <a href="/blog.io//jekyll/2022-05-24-page_cover.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Page with cover image">
+                        <a href="/blog.io//jekyll/2019-04-28-howto.html" class="navigation navigation-next navigation-unique" aria-label="Next page: How to Get Started">
                             <i class="fa fa-angle-right"></i>
                         </a>
                     
@@ -235,11 +205,11 @@ configuration in <code class="language-plaintext highlighter-rouge">_config.yml<
         "depth": 1,
         
         "next": {
-            "title": "Page with cover image",
+            "title": "How to Get Started",
             "level": "1.2",
             "depth": 1,
-            "path": "_posts/2022-05-24-page_cover.md",
-            "ref": "_posts/2022-05-24-page_cover.md",
+            "path": "_posts/2019-04-28-howto.md",
+            "ref": "_posts/2019-04-28-howto.md",
             "articles": []
         },
         
@@ -314,13 +284,13 @@ configuration in <code class="language-plaintext highlighter-rouge">_config.yml<
         "gitbook": "*"
     },
     "file": {
-        "path": "_posts/2021-08-10-toc.md",
-        "mtime": "2021-08-10 00:00:00 +0900",
+        "path": "_posts/2019-04-27-why.md",
+        "mtime": "2019-04-27 00:00:00 +0000",
         "type": "markdown"
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2022-06-02 19:58:05 +0900"
+        "time": "2022-06-02 13:02:52 +0000"
     },
     "basePath": "/blog.io/",
     "book": {

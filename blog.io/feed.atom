@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bmlsj.github.io/blog.io//blog.io/blog.io/feed.atom" rel="self" type="application/atom+xml" /><link href="https://bmlsj.github.io/blog.io//blog.io/" rel="alternate" type="text/html" /><updated>2022-06-02T13:02:52+00:00</updated><id>https://bmlsj.github.io/blog.io//blog.io/blog.io/feed.atom</id><title type="html">Jekyll Blog</title><subtitle>Build Jekyll site with the GitBook style.
+</subtitle><author><name>bmlsj</name></author><entry><title type="html">Page with cover image</title><link href="https://bmlsj.github.io/blog.io//blog.io/jekyll/2022-05-24-page_cover.html" rel="alternate" type="text/html" title="Page with cover image" /><published>2022-05-24T00:00:00+00:00</published><updated>2022-05-24T00:00:00+00:00</updated><id>https://bmlsj.github.io/blog.io//blog.io/jekyll/page_cover</id><content type="html" xml:base="https://bmlsj.github.io/blog.io//blog.io/jekyll/2022-05-24-page_cover.html"><![CDATA[<p>The jekyll-gitbook theme supports adding a cover image to a specific page by adding
+a <code class="language-plaintext highlighter-rouge">cover</code> field to the page metadata:</p>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ---
+  title: Page with cover image
+  author: Tao He
+  date: 2022-05-24
+  category: Jekyll
+  layout: post
+<span class="gi">+ cover: /jekyll-gitbook/dinosaur.gif
+</span>  ---
+</code></pre></div></div>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-gitbook theme supports adding a cover image to a specific page by adding a cover field to the page metadata:]]></summary></entry><entry><title type="html">How to Generate TOC</title><link href="https://bmlsj.github.io/blog.io//blog.io/jekyll/2021-08-10-toc.html" rel="alternate" type="text/html" title="How to Generate TOC" /><published>2021-08-10T00:00:00+00:00</published><updated>2021-08-10T00:00:00+00:00</updated><id>https://bmlsj.github.io/blog.io//blog.io/jekyll/toc</id><content type="html" xml:base="https://bmlsj.github.io/blog.io//blog.io/jekyll/2021-08-10-toc.html"><![CDATA[<p>The jekyll-gitbook theme leverages <a href="https://github.com/allejo/jekyll-toc">jekyll-toc</a> to generate the <em>Contents</em> for the page.
+The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
+configuration in <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
+    <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h2 id="why-this-repo">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>a</li>
+  <li>b</li>
+  <li>c</li>
+  <li>d</li>
+</ol>
+
+<h2 id="why-this-repo-1">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+</ul>
+
+<h2 id="why-this-repo-2">Why this repo</h2>
+
+<p>long contents …..</p>
+
+<ol>
+  <li>e</li>
+  <li>f</li>
+  <li>g</li>
+  <li>h</li>
+</ol>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-gitbook theme leverages jekyll-toc to generate the Contents for the page. The TOC feature is not enabled by default. To use the TOC feature, modify the TOC configuration in _config.yml:]]></summary></entry><entry><title type="html">How to Get Started</title><link href="https://bmlsj.github.io/blog.io//blog.io/jekyll/2019-04-28-howto.html" rel="alternate" type="text/html" title="How to Get Started" /><published>2019-04-28T00:00:00+00:00</published><updated>2019-04-28T00:00:00+00:00</updated><id>https://bmlsj.github.io/blog.io//blog.io/jekyll/howto</id><content type="html" xml:base="https://bmlsj.github.io/blog.io//blog.io/jekyll/2019-04-28-howto.html"><![CDATA[<p>The jekyll-gitbook theme can be used just as other <a href="https://pages.github.com/themes">Jekyll themes</a>.</p>
+
+<p><a href="https://github.com/sighingnow/jekyll-gitbook/fork">Fork</a> this repository and add your markdown posts to the <code class="language-plaintext highlighter-rouge">_posts</code> folder, then
+push to your own Github repository. No need to push generated HTML bundle.</p>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[The jekyll-gitbook theme can be used just as other Jekyll themes.]]></summary></entry><entry><title type="html">Why Jekyll with GitBook</title><link href="https://bmlsj.github.io/blog.io//blog.io/jekyll/2019-04-27-why.html" rel="alternate" type="text/html" title="Why Jekyll with GitBook" /><published>2019-04-27T00:00:00+00:00</published><updated>2019-04-27T00:00:00+00:00</updated><id>https://bmlsj.github.io/blog.io//blog.io/jekyll/why</id><content type="html" xml:base="https://bmlsj.github.io/blog.io//blog.io/jekyll/2019-04-27-why.html"><![CDATA[<p>GitBook is an amazing frontend style to present and organize contents (such as book chapters
+and blogs) on Web. The typical to deploy GitBook at <a href="https://pages.github.com">Github Pages</a>
+is building HTML files locally and then push to Github repository, usually to the <code class="language-plaintext highlighter-rouge">gh-pages</code>
+branch. However, it’s quite annoying to repeat such workload and make it hard for people do
+version control via git for when there are generated HTML files to be staged in and out.</p>
+
+<p>This theme takes style definition out of generated GitBook site and provided the template
+for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
+to <a href="https://pages.github.com">Github Pages</a> without generating and uploading HTML bundle every time when there are
+changes to the original repository.</p>]]></content><author><name>Tao He</name></author><category term="Jekyll" /><summary type="html"><![CDATA[GitBook is an amazing frontend style to present and organize contents (such as book chapters and blogs) on Web. The typical to deploy GitBook at Github Pages is building HTML files locally and then push to Github repository, usually to the gh-pages branch. However, it’s quite annoying to repeat such workload and make it hard for people do version control via git for when there are generated HTML files to be staged in and out.]]></summary></entry></feed>

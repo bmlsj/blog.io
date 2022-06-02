@@ -4,10 +4,10 @@
     <title>Jekyll Blog</title>
     <description>Build Jekyll site with the GitBook style.
 </description>
-    <link>http://localhost:4000/blog.io//</link>
-    <atom:link href="http://localhost:4000/blog.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jun 2022 19:58:05 +0900</pubDate>
-    <lastBuildDate>Thu, 02 Jun 2022 19:58:05 +0900</lastBuildDate>
+    <link>https://bmlsj.github.io/blog.io//blog.io//</link>
+    <atom:link href="https://bmlsj.github.io/blog.io//blog.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 02 Jun 2022 13:02:52 +0000</pubDate>
+    <lastBuildDate>Thu, 02 Jun 2022 13:02:52 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -25,9 +25,9 @@ a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cover&lt;/c
 &lt;/span&gt;  ---
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Tue, 24 May 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/blog.io//jekyll/2022-05-24-page_cover.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2022-05-24-page_cover.html</guid>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        <link>https://bmlsj.github.io/blog.io//blog.io//jekyll/2022-05-24-page_cover.html</link>
+        <guid isPermaLink="true">https://bmlsj.github.io/blog.io//blog.io//jekyll/2022-05-24-page_cover.html</guid>
         
         
         <category>Jekyll</category>
@@ -78,9 +78,9 @@ configuration in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 &lt;/ol&gt;
 
 </description>
-        <pubDate>Tue, 10 Aug 2021 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/blog.io//jekyll/2021-08-10-toc.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2021-08-10-toc.html</guid>
+        <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+        <link>https://bmlsj.github.io/blog.io//blog.io//jekyll/2021-08-10-toc.html</link>
+        <guid isPermaLink="true">https://bmlsj.github.io/blog.io//blog.io//jekyll/2021-08-10-toc.html</guid>
         
         
         <category>Jekyll</category>
@@ -95,9 +95,9 @@ configuration in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
 push to your own Github repository. No need to push generated HTML bundle.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 28 Apr 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/blog.io//jekyll/2019-04-28-howto.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2019-04-28-howto.html</guid>
+        <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://bmlsj.github.io/blog.io//blog.io//jekyll/2019-04-28-howto.html</link>
+        <guid isPermaLink="true">https://bmlsj.github.io/blog.io//blog.io//jekyll/2019-04-28-howto.html</guid>
         
         
         <category>Jekyll</category>
@@ -118,9 +118,9 @@ to &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt; wit
 changes to the original repository.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 27 Apr 2019 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/blog.io//jekyll/2019-04-27-why.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2019-04-27-why.html</guid>
+        <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+        <link>https://bmlsj.github.io/blog.io//blog.io//jekyll/2019-04-27-why.html</link>
+        <guid isPermaLink="true">https://bmlsj.github.io/blog.io//blog.io//jekyll/2019-04-27-why.html</guid>
         
         
         <category>Jekyll</category>
