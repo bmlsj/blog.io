@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll Blog</title>
+    <description>Build Jekyll site with the GitBook style.
+</description>
+    <link>http://localhost:4000/blog.io//</link>
+    <atom:link href="http://localhost:4000/blog.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 02 Jun 2022 19:58:05 +0900</pubDate>
+    <lastBuildDate>Thu, 02 Jun 2022 19:58:05 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Page with cover image</title>
+        <description>&lt;p&gt;The jekyll-gitbook theme supports adding a cover image to a specific page by adding
+a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cover&lt;/code&gt; field to the page metadata:&lt;/p&gt;
+
+&lt;div class=&quot;language-diff highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ---
+  title: Page with cover image
+  author: Tao He
+  date: 2022-05-24
+  category: Jekyll
+  layout: post
+&lt;span class=&quot;gi&quot;&gt;+ cover: /jekyll-gitbook/dinosaur.gif
+&lt;/span&gt;  ---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog.io//jekyll/2022-05-24-page_cover.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2022-05-24-page_cover.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Generate TOC</title>
+        <description>&lt;p&gt;The jekyll-gitbook theme leverages &lt;a href=&quot;https://github.com/allejo/jekyll-toc&quot;&gt;jekyll-toc&lt;/a&gt; to generate the &lt;em&gt;Contents&lt;/em&gt; for the page.
+The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
+configuration in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;toc&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;enabled&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;why-this-repo&quot;&gt;Why this repo&lt;/h2&gt;
+
+&lt;p&gt;long contents …..&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;a&lt;/li&gt;
+  &lt;li&gt;b&lt;/li&gt;
+  &lt;li&gt;c&lt;/li&gt;
+  &lt;li&gt;d&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;why-this-repo-1&quot;&gt;Why this repo&lt;/h2&gt;
+
+&lt;p&gt;long contents …..&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1&lt;/li&gt;
+  &lt;li&gt;2&lt;/li&gt;
+  &lt;li&gt;3&lt;/li&gt;
+  &lt;li&gt;4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-this-repo-2&quot;&gt;Why this repo&lt;/h2&gt;
+
+&lt;p&gt;long contents …..&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;e&lt;/li&gt;
+  &lt;li&gt;f&lt;/li&gt;
+  &lt;li&gt;g&lt;/li&gt;
+  &lt;li&gt;h&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 10 Aug 2021 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog.io//jekyll/2021-08-10-toc.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2021-08-10-toc.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Get Started</title>
+        <description>&lt;p&gt;The jekyll-gitbook theme can be used just as other &lt;a href=&quot;https://pages.github.com/themes&quot;&gt;Jekyll themes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sighingnow/jekyll-gitbook/fork&quot;&gt;Fork&lt;/a&gt; this repository and add your markdown posts to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder, then
+push to your own Github repository. No need to push generated HTML bundle.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 28 Apr 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog.io//jekyll/2019-04-28-howto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2019-04-28-howto.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Jekyll with GitBook</title>
+        <description>&lt;p&gt;GitBook is an amazing frontend style to present and organize contents (such as book chapters
+and blogs) on Web. The typical to deploy GitBook at &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;
+is building HTML files locally and then push to Github repository, usually to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;
+branch. However, it’s quite annoying to repeat such workload and make it hard for people do
+version control via git for when there are generated HTML files to be staged in and out.&lt;/p&gt;
+
+&lt;p&gt;This theme takes style definition out of generated GitBook site and provided the template
+for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
+to &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt; without generating and uploading HTML bundle every time when there are
+changes to the original repository.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 27 Apr 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/blog.io//jekyll/2019-04-27-why.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog.io//jekyll/2019-04-27-why.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
