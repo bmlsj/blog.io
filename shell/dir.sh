@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-korean=$(<../directory\\korean.txt)
-upstream=$(<../directory\\upstream.txt)
+korean=$(<korean.txt)
+upstream=$(<upstream.txt)
 
 
 echo "$korean"
