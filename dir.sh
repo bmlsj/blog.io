@@ -1,12 +1,11 @@
 #!/usr/bin/env sh
 
-korean=$(<directory\\korean.txt)
-upstream=$(<directory\\upstream.txt)
+korean=$(<./directory\\korean.txt)
+upstream=$(<./directory\\upstream.txt)
 
 
 echo "$korean"
 echo "$upstream"
-echo "$working_dir"
 
 git checkout -b result
 
