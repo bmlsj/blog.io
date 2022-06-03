@@ -9,14 +9,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+        working-directory: ./shell
     steps:
       - uses: actions/checkout@v3
       
 
       - name : run dir.sh
-        env:
-          working-directory: ./shell
         run: |
             chmod +rx dir.sh
             ./dir.sh
