@@ -15,7 +15,10 @@ jobs:
       
       - name : pwd
         run : pwd
-        
+      - name: Display the path
+        run: echo $PATH
+        shell: bash
+          
       - name : run dir.sh
         shell: bash
         run: |
