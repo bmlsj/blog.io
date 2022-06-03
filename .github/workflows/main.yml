@@ -25,7 +25,7 @@ jobs:
         run : git checkout -b result
          
       - name: cloning repository
-        run : git clone "$korean"
+        run : git clone https://github.com/devrel-kr/Web-Dev-For-Beginners.git
           
       - name: add upstream
         run : git remote add upstream https://github.com/microsoft/Web-Dev-For-Beginners.git
