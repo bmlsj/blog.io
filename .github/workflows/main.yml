@@ -16,7 +16,7 @@ jobs:
 
       - name : run dir.sh
         env:
-          working-directory: ./
+          working-directory: ./shell
         run: |
             chmod +rx dir.sh
             ./dir.sh
