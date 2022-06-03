@@ -29,12 +29,13 @@ echo "check repo"
 git remote -v
 
 
+echo "fetch upstream"
+git fetch "$upstream"
+
+
 # upstream branch
 echo "git checkout to upstream"
 git checkout -b upstream
-
-echo "fetch upstream"
-git fetch "$upstream"
 
 
 echo "run git_diff.py"
