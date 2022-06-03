@@ -6,7 +6,6 @@ upstream=$(<./directory\\upstream.txt)
 
 echo "$korean"
 echo "$upstream"
-echo "$working_dir"
 
 git checkout -b result
 
