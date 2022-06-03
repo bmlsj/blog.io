@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: shell test
 
 on:
@@ -18,45 +16,9 @@ jobs:
       - name : run dir.sh
         shell: bash
         run: |
-            korean=$(<directory\\korean.txt)
-            upstream=$(<directory\\upstream.txt)
-            echo "$korean"
-            echo "$upstream"
-            git checkout -b result
-
-            echo "git clone repo"
-            git clone "$korean"
-
-
-            echo "copy python script"
-            cp git_diff.py \Web-Dev-For-Beginners
-
-
-            echo "cd working directory"
-            cd ./Web-Dev-For-Beginners
-
-
-            echo "add upstream"
-            git remote add upstream "$upstream"
-
-            echo "check repo"
-            git remote -v
-
-            echo "fetch upstream"
-            git fetch "$upstream"
-
-
-            # upstream branch
-            echo "git checkout to upstream"
-            git checkout -b upstream
-
-            echo "run git_diff.py"
-            python git_diff.py main upstream
-
-            echo "in post"
-            cp report_tree.md ../post
-
-
+            chmod +rx dir.sh
+            ./dir.sh
+            echo "dir"
       
       - name : git config
         env:
@@ -64,7 +26,6 @@ jobs:
         run : |
               git config --global user.email "gaga2353@gmail.com"
               git config --global user.name "bmlsj"
-
       - name: Run auto.sh
         run: |
               chmod +rx auto.sh
