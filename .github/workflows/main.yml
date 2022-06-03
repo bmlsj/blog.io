@@ -9,8 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      working-directory: ./shell
     steps:
       - uses: actions/checkout@v3
       
@@ -23,7 +21,7 @@ jobs:
         run: |
             chmod +rx dir.sh
             ./dir.sh
-            working-directory: ${{ env.working-directory }}
+
       
       - name : git config
         env:
