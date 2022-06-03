@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-korean=$(<./directory\\korean.txt)
-upstream=$(<./directory\\upstream.txt)
+korean=$(<../directory\\korean.txt)
+upstream=$(<../directory\\upstream.txt)
 
 
 echo "$korean"
@@ -14,7 +14,7 @@ git clone "$korean"
 
 
 echo "copy python script"
-cp git_diff.py \Web-Dev-For-Beginners
+cp ../git_diff.py \Web-Dev-For-Beginners
 
 
 echo "cd working directory"
