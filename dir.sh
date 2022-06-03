@@ -10,7 +10,7 @@ echo "$upstream"
 git checkout -b result
 
 echo "git clone repo"
-git clone "$korean"
+git clone https://github.com/devrel-kr/Web-Dev-For-Beginners.git
 
 
 echo "copy python script"
@@ -22,7 +22,7 @@ cd ./Web-Dev-For-Beginners
 
 
 echo "add upstream"
-git remote add upstream "$upstream"
+git remote add upstream https://github.com/microsoft/Web-Dev-For-Beginners.git
 
 echo "check repo"
 git remote -v
