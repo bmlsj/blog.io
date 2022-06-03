@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
           working-directory: ./Web-Dev-For-Beginners
-          korean: korean.txt
-          upstream: upstream.txt
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -40,7 +38,7 @@ jobs:
         working-directory: ${{ env.working-directory }}
         
       - name: checkout to upstream
-        run : git checkout upstream
+        run : git checkout -b upstream
         working-directory: ${{ env.working-directory }}
         
       - name: copy python script
