@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: shell test
 
 on:
@@ -11,15 +9,22 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+        working-directory: ./shell
     steps:
       - uses: actions/checkout@v3
       
+      - name: pwd, ls
+        run : |
+              pwd
+              ls
+
       - name : run dir.sh
         run: |
             chmod +rx dir.sh
             ./dir.sh
             echo "dir"
+        working-directory: ${{ env.working-directory }}
       
       - name : git config
         env:
@@ -27,7 +32,6 @@ jobs:
         run : |
               git config --global user.email "gaga2353@gmail.com"
               git config --global user.name "bmlsj"
-
       - name: Run auto.sh
         run: |
               chmod +rx auto.sh
