@@ -20,6 +20,7 @@ jobs:
             chmod +rx dir.sh
             ./dir.sh
             echo "dir"
+        working-directory: ${{ env.working-directory }}
       
       - name : git config
         env:
