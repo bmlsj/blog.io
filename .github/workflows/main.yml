@@ -9,26 +9,59 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+          working-directory: ./Web-Dev-For-Beginners
+          korean: korean.txt
+          upstream: upstream.txt
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v3
       
-      - name: pwd, ls
-        run : |
-              pwd
-              ls
-
-      - name : run dir.sh
-        run: |
-            chmod +rx dir.sh
-            ./dir.sh
-
+      - name: Set up Python
+        uses: actions/setup-python@v3.1.2
+        
+      - name: checkout to result branch
+        run : git checkout -b result
+         
+      - name: cloning repository
+        run : git clone "$korean"
+          
+      - name: add upstream
+        run : git remote add upstream https://github.com/microsoft/Web-Dev-For-Beginners.git
+        working-directory: ${{ env.working-directory }}
       
+      - name: check repository
+        run : git remote -v
+        working-directory: ${{ env.working-directory }}
+
+      - name: fetch upstream
+        run : git fetch upstream
+        working-directory: ${{ env.working-directory }}
+        
+      - name: checkout to upstream
+        run : git checkout upstream
+        working-directory: ${{ env.working-directory }}
+        
+      - name: copy python script
+        run : cp git_diff.py ${{ env.working-directory }}
+        
+      - name: run python script
+        run : python git_diff.py main upstream
+        working-directory: ${{ env.working-directory }}
+
+      - name: copy result
+        run : cp report_tree.md ../_posts
+        working-directory: ${{ env.working-directory }}
+        
+        
       - name : git config
         env:
           ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
         run : |
               git config --global user.email "gaga2353@gmail.com"
               git config --global user.name "bmlsj"
+              
       - name: Run auto.sh
         run: |
               chmod +rx auto.sh
